@@ -42,4 +42,4 @@ ADD ./.profile.d /app/.profile.d
 CMD gunicorn --bind 0.0.0.0:$PORT wsgi
 
 #If app is in private space uncomment line 45 and comment line 42
-#CMD gunicorn --bind 0.0.0.0:$PORT wsgi bash /app/.profile.d/heroku-exec.sh
+#CMD gunicorn --bind 0.0.0.0:$PORT wsgi && bash /app/.profile.d/heroku-exec.sh
