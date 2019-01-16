@@ -1,11 +1,11 @@
-# Heroku-Docker-SSH-Tunneling-POC
+# Heroku-Docker-SSH-Tunneling-POC-Common-Runtime
 
 This proof of concept app is intended to demonstrate SSH Tunneling for Docker Containers in Heroku.  
 
 First clone the code
 
 ```
-git clone https://github.com/dhavalthakkar93/Heroku-Docker-SSH-Tunneling-POC
+git clone https://github.com/dhavalthakkar93/Heroku-Docker-SSH-Tunneling-POC-Common-Runtime
 ```
 
 Create Heroku App
